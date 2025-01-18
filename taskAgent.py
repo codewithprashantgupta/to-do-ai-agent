@@ -22,7 +22,7 @@ class AITaskAgent:
             json.dump(self.tasks, f, indent=2)
 
     def analyze_task_description(self, description):
-        """Use AI to analyze the task and suggest priority, deadline, and categorization"""
+        """Use GPT to analyze the task and suggest priority, deadline, and categorization"""
         prompt = f"""Analyze this task: "{description}"
         Provide a JSON response with:
         1. Suggested priority (high/medium/low)
@@ -39,7 +39,7 @@ class AITaskAgent:
         return json.loads(response.choices[0].message.content)
 
     def add_task(self, description):
-        # Use AI to analyze the task
+        # Using AI to analyze the task
         analysis = self.analyze_task_description(description)
         print("analysis: ")
         print(analysis)
@@ -156,10 +156,10 @@ def main():
     if not api_key:
         raise ValueError("No API key found!!")
 
-    # Initialize agent with your OpenAI API key
+    # Initialize agent
     agent = AITaskAgent(api_key=api_key)
     
-    # Example usage
+    # Menu
     while True:
         choice = display_menu()
         

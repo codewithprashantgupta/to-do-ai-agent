@@ -44,7 +44,7 @@ class AITaskAgent:
         return json.loads(message.content[0].text)
 
     def add_task(self, description):
-        # Use AI to analyze the task
+        # Use CL-AI to analyze the task
         analysis = self.analyze_task_description(description)
         
         task = {
