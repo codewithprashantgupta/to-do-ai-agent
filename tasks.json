@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "description": "Create pamphlet for marketing event",
+    "created_at": "2025-01-18T14:38:56.369012",
+    "priority": "medium",
+    "estimated_hours": 8,
+    "category": "design",
+    "subtasks": [
+      "Research target audience demographics and preferences",
+      "Create content for the pamphlet",
+      "Design layout and graphics for the pamphlet",
+      "Review and finalize the pamphlet"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "description": "Complete marketting assignment by Sunday",
+    "created_at": "2025-01-18T14:52:07.525796",
+    "priority": "high",
+    "estimated_hours": 8,
+    "category": "marketing",
+    "subtasks": [
+      "Research target audience",
+      "Create marketing strategy",
+      "Design promotional materials",
+      "Write marketing content",
+      "Review and finalize assignment"
+    ],
+    "status": "completed",
+    "completed_at": "2025-01-18T15:06:19.516473"
+  },
+  {
+    "id": 3,
+    "description": "Clean your room",
+    "created_at": "2025-01-18T15:08:14.472475",
+    "priority": "medium",
+    "estimated_hours": 2,
+    "category": "household",
+    "subtasks": [
+      "Organize clothes",
+      "Dust furniture",
+      "Vacuum floors",
+      "Make bed"
+    ],
+    "status": "pending"
+  }
+]
